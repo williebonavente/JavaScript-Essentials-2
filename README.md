@@ -140,7 +140,7 @@ Five highly recommended documentation resources to deepen your JavaScript expert
    [https://jestjs.io/docs/getting-started](https://jestjs.io/docs/getting-started)  
 
 6. **Vim**
-   Guide for learning Vim the most powerful text editor in the world.
-   [https://github.com/vim/vim]
+   Guide for learning Vim the most powerful text editor in the world.   
+    [https://github.com/vim/vim](https://github.com/vim/vim)
    
 These resources provide detailed explanations, practical examples, and official standards to help solidify your knowledge and explore advanced topics.
