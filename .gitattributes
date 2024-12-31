@@ -1,0 +1,24 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Explicitly declare text files you want to always be normalized and converted to native line endings on checkout.
+*.js text
+*.jsx text
+*.ts text
+*.tsx text
+*.json text
+*.md text
+*.html text
+*.css text
+*.scss text
+*.yml text
+*.yaml text
+
+# Declare files that will always have CRLF line endings on checkout.
+*.bat text eol=crlf
+
+# Declare files that will always have LF line endings on checkout.
+*.sh text eol=lf
+
+# Denote all files in node_modules as binary to avoid any line ending normalization
+node_modules/** binary
