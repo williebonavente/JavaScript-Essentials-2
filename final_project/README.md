@@ -216,8 +216,8 @@ Goodbye!
 ---
 
 ## Sample Project
-Here's a sample project to inspire you.
-<!-- TODO: Insert the github repo -->
+Here's a sample project for you, although some parts of it is not completed. \
+ [JavaScript Essentials 2 Final Project](https://github.com/williebonavente)
 
 ## **Acknowledgments**
 This project is inspired by the practical needs of personal financial management and serves as a comprehensive exercise in JavaScript programming.
