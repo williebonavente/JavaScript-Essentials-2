@@ -26,7 +26,116 @@ Reference: [Variables](https://javascript.info/variables)
 
 ---
 
-### **2. Arrays**
+### **2. Primitive and Non-Primitive Data Types**
+#### **Primitive Data Types**
+1. **Number:** Represents numeric values, including integers and floats
+    ```javascript
+      let age = 25;
+      let price = 9.99;
+    ```
+2. **String:** Represents sequences of characters 
+    ```javascript
+    let confess = "I miss you too";
+    // Even emoji is string
+    let emoji = "💋"; // U+1F48B
+    // UTF-16 Encoding:
+    ```
+3. **Boolean:** Represents `true` or `false`
+    ```javascript
+    let youHaveACrushOnMe = false;
+    ```
+4. **Undefined**: A variable declared but not assigned a value.
+    ```javascript
+    let something;
+    console.log(something); // undefined
+    ```
+5. **Null**: Represents an intentional absence of value.
+    ```javascript
+    let empty = null;
+    ```
+6. **Symbol**: A unique and immutable primitive value.
+    ```javascript
+    let uniqueKey = Symbol("key");
+    ```
+7. **BigInt**: Represents integers larger than Number. `MAX_SAFE_INTEGER`.
+   ```javascript
+   let bigNumber = 123456789012345678901234567890n;
+    ```
+#### **Non-Primitive Data Types**:
+- **Object**: A collection of key-value pairs.
+- **Array**: A type of object used to store ordered collections of values
+- **Function**: A callable object. <br>
+  
+Reference: [Data Types](https://javascript.info/types)
+
+### **3. Conditional Statements**
+
+Conditional statements control program flow based on conditions.
+
+Types:
+- `if` **Statement**:
+    ```javascript
+      let age = 18;
+      if (age >= 18) {
+        console.log("You are an adult.");
+      }
+    ```
+- `if...else` **Statement**:
+    ```javascript
+      if (age >= 18) {
+          console.log("You are an adult.");
+      } else {
+        console.log("You are a minor.");
+      }
+  ```
+- `else if` **Statement**:
+    ``` javascript
+      if (age < 13) {
+          console.log("Child");
+      } else if (age < 20) {
+        console.log("Teenager");
+      } else {
+        console.log("Adult");
+      }
+  ```
+- **Ternary Operator** `(? :)`:
+  ```javascript
+    let access = age >= 18 ? "Granted" : "Denied";
+    console.log(access);
+  ```
+Reference: [Conditional Statement](https://javascript.info/ifelse) 
+
+
+### **4. Mathematical and Logical Symbols**
+**Common Operators**:
+- Arithmetic Operators:
+
+  - `+` (Addition): $5$ `+` $3$ $→$ $8$
+  - `-` (Subtraction): $5$ `-` $3$ → $2$
+  - `*` (Multiplication): $5$ `*` $3$ $→$ $15$
+  - `/` (Division): $6$ `/` $3$ $→$ $2$
+  - `%`(Modulo): $5$ `%` $2$ $→$ $1$
+  - `**` (Exponentiation): $2$ `**` $3$ $→$ $8$ <br>
+- Logical Operators:
+  - `&&`: Logical AND.
+  - `||`: Logical OR.
+  - `!`: Logical NOT.
+- Less than or greater than comparisons.
+  - `<`, `<=`, `>`, `>=`: <br>
+- Comparison Operators:
+  - `==`: Equal (loose equality, type coercion allowed).
+  - `===`: Strictly equal (no type coercion).
+  - `!=`: Not equal.
+  - `!==`: Strictly not equal. <br>
+
+**Key Points**:
+- Always prefer `===` over `==` to avoid unexpected type coercion.
+- Use parentheses `()` to group conditions for clarity.
+
+References: [Mathematical Operators](https://javascript.info/operators), 
+[Comparison Operator](https://javascript.info/comparison),
+[Logical Operators](https://javascript.info/logical-operators)
+### **5. Arrays**
 #### Definition:
 Arrays are special objects used to store ordered collections of data.
 
@@ -62,7 +171,7 @@ Reference: [Arrays](https://javascript.info/array)
 
 ---
 
-### **3. Loops**
+### **6. Loops**
 #### Definition:
 Loops execute a block of code repeatedly based on a condition.
 
@@ -108,7 +217,7 @@ Reference: [Loops](https://javascript.info/while-for) | [MDN Loops](https://deve
 
 ---
 
-### **4. Functions**
+### **7. Functions**
 #### Definition:
 Functions are blocks of code designed to perform a specific task.
 
@@ -144,7 +253,7 @@ Reference: [Function Basics](https://javascript.info/function-basics) | [Functio
 
 ---
 
-### **5. Advanced Array Methods**
+### **8. Advanced Array Methods**
 #### **`map()` Method:**
 - Creates a new array by applying a function to each element of the array.
   ```javascript
@@ -176,7 +285,7 @@ Reference: [General Array Methods](https://javascript.info/array-methods)
 
 ---
 
-### **6. JavaScript Objects**
+### **9. JavaScript Objects**
 #### **Object Creation and Manipulation:**
 - Objects store collections of key-value pairs.
   ```javascript
@@ -208,7 +317,7 @@ Reference: [Keys and Values](https://javascript.info/keys-values-entries)
 
 ---
 
-### **7. Other of Key Concepts**
+### **10. Other of Key Concepts**
 #### Language Features:
 - **Dynamic Typing:** Variables are not explicitly typed.
 - **Prototypes:** Every object has a prototype, enabling inheritance.
