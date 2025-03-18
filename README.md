@@ -41,7 +41,7 @@ This course provides a systematic approach to mastering advanced JavaScript topi
 ## **Prerequisites**  
 To ensure a smooth learning experience, make sure to have the following:  
 - **Node.js** installed  
-- **Jest** for testing: `npm install --save-dev jest`  
+
 - A text editor (e.g., Vim, Emacs, VSCode, or Nano)  
 - A basic understanding of the command-line interface  
 - **Git** installed

@@ -74,7 +74,7 @@ The project is modularized into the following components:
    - Validate credentials using `async/await`.
 
 2. **Interactive Menu**:
-   - Present options like "Add Transaction," "View Transactions," or "View Summary."
+   - Present options like "Add **Transaction**," "View Transactions," or "View Summary."
    - Handle commands dynamically based on user input.
 
 3. **Transaction Management**:
